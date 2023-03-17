@@ -55,7 +55,8 @@
 		$data = json_decode($response, true);
 		$realtimePrice = $data['bitcoin'][$currencyCode];
 		$subject = 'Bitcoin Price Alert';
-
+		
+		echo "<p>Min: $minPrice<br>Max: $maxPrice</p>";
 		echo "<h1>Bitcoin price: $realtimePrice $currency</h1>";
 
 		if ($realtimePrice > $maxPrice && !$emailSent) {
