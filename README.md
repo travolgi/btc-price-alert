@@ -1,4 +1,7 @@
 # Bitcoin Price Alert
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac562df7-9627-47ca-8c94-db2538c79e51/deploy-status)](https://app.netlify.com/sites/melodic-torte-44fc31/deploys)
+
 Bitcoin Price Alert: receive an email when the price of bitcoin is higher or lower than the amount you set.  
 **You need to set up a cron job and `ALERT_EMAIL` environment variable in your server.**
 
