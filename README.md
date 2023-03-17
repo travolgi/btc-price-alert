@@ -1,5 +1,6 @@
 # Bitcoin Price Alert
-Bitcoin Price Alert: receive an email when the price of bitcoin is higher or lower than the amount you set.
+Bitcoin Price Alert: receive an email when the price of bitcoin is higher or lower than the amount you set.  
+**You need to set up a cron job and `ALERT_EMAIL` environment variable in your server.**
 
 ## Getting Started
 
